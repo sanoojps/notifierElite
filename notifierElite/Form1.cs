@@ -164,8 +164,6 @@ namespace notifierElite
               //this.exitToolStripMenuItem.Font = 
                 //new System.Drawing.Font("Microsoft Sans Serif", 10.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
            
-
-           
             this.exitToolStripMenuItem.Font =
                 new System.Drawing.Font("Microsoft Sans Serif", 10.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
            

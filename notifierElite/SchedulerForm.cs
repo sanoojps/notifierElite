@@ -64,5 +64,37 @@ namespace notifierElite
            
 
         }
+
+        private void Save_Schedule_MouseEnter(object sender, EventArgs e)
+        {
+            this.Save_Schedule.Cursor = System.Windows.Forms.Cursors.Hand;
+            //this.Save_Schedule.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), 
+            //    ((int)(((byte)(114)))), ((int)(((byte)(198)))));
+            this.Save_Schedule.FlatStyle = FlatStyle.Popup;
+        }
+
+        private void Save_Schedule_MouseLeave(object sender, EventArgs e)
+        {
+            this.Save_Schedule.Cursor = System.Windows.Forms.Cursors.Default;
+            //this.Save_Schedule.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))),
+            //    ((int)(((byte)(64)))), ((int)(((byte)(66)))));
+            this.Save_Schedule.FlatStyle = FlatStyle.Flat;
+        }
+
+        private void Exit_MouseEnter(object sender, EventArgs e)
+        {
+            this.Exit.Cursor = System.Windows.Forms.Cursors.Hand;
+            //this.Exit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))),
+            //    ((int)(((byte)(114)))), ((int)(((byte)(198)))));
+            this.Exit.FlatStyle = FlatStyle.Popup;
+        }
+
+        private void Exit_MouseLeave(object sender, EventArgs e)
+        {
+            this.Exit.Cursor = System.Windows.Forms.Cursors.Default;
+            //this.Exit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))),
+            //    ((int)(((byte)(64)))), ((int)(((byte)(66)))));
+            this.Exit.FlatStyle = FlatStyle.Flat;
+        }
     }
 }

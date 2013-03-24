@@ -30,6 +30,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SchedulerForm));
             this.radioButtonDaily = new System.Windows.Forms.RadioButton();
             this.radioButtonWeekly = new System.Windows.Forms.RadioButton();
@@ -49,6 +50,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.SaveScheduleToolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.ExitToolTip = new System.Windows.Forms.ToolTip(this.components);
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -158,9 +161,7 @@
             // 
             // Exit
             // 
-            this.Exit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(114)))), ((int)(((byte)(198)))));
-            this.Exit.FlatAppearance.BorderSize = 2;
-            this.Exit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Exit.Image = ((System.Drawing.Image)(resources.GetObject("Exit.Image")));
             this.Exit.Location = new System.Drawing.Point(163, 129);
@@ -169,8 +170,11 @@
             this.Exit.TabIndex = 13;
             this.Exit.Text = "Exit";
             this.Exit.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.ExitToolTip.SetToolTip(this.Exit, "Exit Scheduler");
             this.Exit.UseVisualStyleBackColor = false;
             this.Exit.Click += new System.EventHandler(this.Exit_Click);
+            this.Exit.MouseEnter += new System.EventHandler(this.Exit_MouseEnter);
+            this.Exit.MouseLeave += new System.EventHandler(this.Exit_MouseLeave);
             // 
             // groupBox2
             // 
@@ -193,11 +197,10 @@
             // 
             // Save_Schedule
             // 
-            this.Save_Schedule.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(114)))), ((int)(((byte)(198)))));
-            this.Save_Schedule.FlatAppearance.BorderSize = 2;
+            this.Save_Schedule.Cursor = System.Windows.Forms.Cursors.Default;
             this.Save_Schedule.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.Save_Schedule.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Save_Schedule.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Save_Schedule.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Save_Schedule.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Save_Schedule.Image = ((System.Drawing.Image)(resources.GetObject("Save_Schedule.Image")));
             this.Save_Schedule.Location = new System.Drawing.Point(32, 129);
@@ -206,8 +209,11 @@
             this.Save_Schedule.TabIndex = 13;
             this.Save_Schedule.Text = "Save Schedule";
             this.Save_Schedule.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.SaveScheduleToolTip.SetToolTip(this.Save_Schedule, "Save Schedule");
             this.Save_Schedule.UseVisualStyleBackColor = false;
             this.Save_Schedule.Click += new System.EventHandler(this.Save_Schedule_Click);
+            this.Save_Schedule.MouseEnter += new System.EventHandler(this.Save_Schedule_MouseEnter);
+            this.Save_Schedule.MouseLeave += new System.EventHandler(this.Save_Schedule_MouseLeave);
             // 
             // groupBox4
             // 
@@ -224,7 +230,7 @@
             // 
             this.Schedule.AutoSize = true;
             this.Schedule.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Schedule.Location = new System.Drawing.Point(30, 18);
+            this.Schedule.Location = new System.Drawing.Point(35, 18);
             this.Schedule.Name = "Schedule";
             this.Schedule.Size = new System.Drawing.Size(25, 15);
             this.Schedule.TabIndex = 0;
@@ -331,6 +337,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Button Save_Schedule;
+        private System.Windows.Forms.ToolTip SaveScheduleToolTip;
+        private System.Windows.Forms.ToolTip ExitToolTip;
 
 
     }
