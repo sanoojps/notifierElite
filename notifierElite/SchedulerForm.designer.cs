@@ -168,7 +168,7 @@
             this.Exit.Name = "Exit";
             this.Exit.Size = new System.Drawing.Size(107, 33);
             this.Exit.TabIndex = 13;
-            this.Exit.Text = "Exit";
+            this.Exit.Text = "Exit           ";
             this.Exit.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.ExitToolTip.SetToolTip(this.Exit, "Exit Scheduler");
             this.Exit.UseVisualStyleBackColor = false;
