@@ -142,6 +142,7 @@ namespace notifierElite
 
                    switch (TargetInstance_Properties_Name)
                    {
+                       #region @"Spooler"
                        case @"Spooler":
                            //System.Windows.Forms.MessageBox.Show(eventClassName);
                            /*
@@ -221,7 +222,7 @@ namespace notifierElite
                            
                            break;
 
-                       
+                       #endregion
 
 
 

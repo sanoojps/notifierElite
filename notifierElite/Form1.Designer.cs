@@ -171,25 +171,21 @@
             this.popupNotifier1.ContentColor = System.Drawing.Color.Black;
             this.popupNotifier1.ContentFont = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.popupNotifier1.ContentHoverColor = System.Drawing.Color.Black;
-            this.popupNotifier1.ContentPadding = 
-                new System.Windows.Forms.Padding(7);
+            this.popupNotifier1.ContentPadding = new System.Windows.Forms.Padding(7);
             this.popupNotifier1.ContentText = "Success!  Staples® EasyTech™ Small Business Class has detected and fixed a potent" +
     "ial issue with this computer";
             this.popupNotifier1.GradientPower = 300;
+            this.popupNotifier1.HeaderColor = System.Drawing.Color.BlanchedAlmond;
             this.popupNotifier1.HeaderHeight = 20;
             this.popupNotifier1.Image = global::notifierElite.Properties.Resources._157_GetPermission_48x48_72;
-            this.popupNotifier1.ImagePadding = 
-                new System.Windows.Forms.Padding(7);
+            this.popupNotifier1.ImagePadding = new System.Windows.Forms.Padding(7);
             this.popupNotifier1.OptionsMenu = null;
+            this.popupNotifier1.ShowGrip = false;
             this.popupNotifier1.Size = new System.Drawing.Size(400, 100);
             this.popupNotifier1.TitleColor = System.Drawing.Color.Black;
             this.popupNotifier1.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.popupNotifier1.TitlePadding = new System.Windows.Forms.Padding(1);
             this.popupNotifier1.TitleText = "Staples® EasyTech™ Small Business Class";
-            this.popupNotifier1.TitlePadding = 
-                new System.Windows.Forms.Padding(1);
-            this.popupNotifier1.HeaderColor = System.Drawing.Color.BlanchedAlmond;
-            this.popupNotifier1.ShowGrip = false;
-           
             // 
             // button1
             // 

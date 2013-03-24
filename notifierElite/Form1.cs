@@ -414,6 +414,7 @@ namespace notifierElite
 
         private void callScheduleForm()
         {
+
             LaunchScheduler();
            
         }

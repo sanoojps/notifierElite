@@ -5,7 +5,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 
-//Bring a window to front if it alreday exits
+//Bring a window to front if it already exits
 
 namespace notifierElite
 {
