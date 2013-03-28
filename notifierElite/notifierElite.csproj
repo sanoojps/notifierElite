@@ -107,6 +107,10 @@
     <Content Include="lib\NotificationWindow-old.dll" />
     <Content Include="lib\NotificationWindow.dll" />
     <None Include="Resources\157_GetPermission_48x48_72.png" />
+    <None Include="Resources\down-arrow.fw.png" />
+    <None Include="Resources\left-arrow.fw.png" />
+    <None Include="Resources\right-arrow.fw.png" />
+    <None Include="Resources\up-arrow.fw.png" />
     <Content Include="Staples-easy.fw.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

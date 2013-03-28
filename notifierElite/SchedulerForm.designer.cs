@@ -163,7 +163,7 @@
             // 
             this.Exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Exit.Image = ((System.Drawing.Image)(resources.GetObject("Exit.Image")));
+            this.Exit.Image = global::notifierElite.Properties.Resources.down_arrow_fw;
             this.Exit.Location = new System.Drawing.Point(163, 129);
             this.Exit.Name = "Exit";
             this.Exit.Size = new System.Drawing.Size(107, 33);
