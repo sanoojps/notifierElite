@@ -163,7 +163,7 @@
             // 
             this.Exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Exit.Image = global::notifierElite.Properties.Resources.down_arrow_fw;
+            this.Exit.Image = global::notifierElite.Properties.Resources.downarrowfw;
             this.Exit.Location = new System.Drawing.Point(163, 129);
             this.Exit.Name = "Exit";
             this.Exit.Size = new System.Drawing.Size(107, 33);
@@ -202,7 +202,7 @@
             this.Save_Schedule.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Save_Schedule.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Save_Schedule.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Save_Schedule.Image = ((System.Drawing.Image)(resources.GetObject("Save_Schedule.Image")));
+            this.Save_Schedule.Image = global::notifierElite.Properties.Resources.uparrowfw;
             this.Save_Schedule.Location = new System.Drawing.Point(32, 129);
             this.Save_Schedule.Name = "Save_Schedule";
             this.Save_Schedule.Size = new System.Drawing.Size(125, 33);
