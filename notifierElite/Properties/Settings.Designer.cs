@@ -22,5 +22,15 @@ namespace notifierElite.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://59.163.204.32:82/smbservice.asmx")]
+        public string notifierElite_smb_WebService_Reference_SMBService {
+            get {
+                return ((string)(this["notifierElite_smb_WebService_Reference_SMBService"]));
+            }
+        }
     }
 }
